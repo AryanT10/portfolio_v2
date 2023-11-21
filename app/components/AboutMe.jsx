@@ -54,14 +54,14 @@ const AboutMe = () => {
 			<div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
 				<Image
 					src="/images/mario.gif"
-					alt="Your alt text"
+					alt="alt"
 					width={600}
 					height={400}
 				/>
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
 					<h2 className="text-4xl font-bold txt-white mt-4 mb-4">About Me</h2>
 					<p className="txt-base lg:text-lg">
-						As a Full-Stack Aspirant, I am fueled by eagerness to embark on a co-op adventure and explore new opportunities in the dynamic realm of technology. With a fervent passion for both front-end and back-end development, I am committed to honing my skills and staying abreast of the latest industry trends. Equipped with a solid foundation in programming languages, I am ready to contribute my enthusiasm and dedication to innovative projects. My goal is not just to build applications, but to create meaningful and impactful solutions that resonate with users. Eager to collaborate, learn, and thrive in a professional environment, I am excited about the prospect of translating my aspirations into tangible contributions in the field of Full-Stack development.</p>
+						As a Full-Stack Aspirant, I am fueled by eagerness to embark on a co-op adventure and explore new opportunities in the dynamic realm of technology. With a fervent passion for both front-end and back-end development. Equipped with a solid foundation in programming languages. My goal is not just to build applications, but to create meaningful and impactful solutions that resonate with users. Eager to collaborate, learn, and thrive in a professional environment along with contributing in the field of Full-Stack development.</p>
 					<div className="flex flex-row justify-start mt-8">
 						<TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills{" "} </TabButton>
 						<TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education{" "} </TabButton>

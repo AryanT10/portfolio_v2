@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React, { useState } from "react"
 import NavLink from './NavLink'
+import Image from 'next/image'
 import { XIcon as XmarkIcon, MenuIcon as Bars3Icon } from "@heroicons/react/solid";
 import MenuOverlay from './MenuOverlay';
 
@@ -30,7 +31,10 @@ const Navbar = () => {
 	return (
 		<nav className="fixed top-0 left-0 border border-[#33353F] z-10 right-0 bg-[#121212] bg-opacity-100">
 			<div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-4">
-				<Link href={'/'} className="text-xl md:text-5xl text-white font-semibold">AT</Link>
+				<Link href={'/'} className="text-xl md:text-5xl text-white font-semibold">
+					<Image src="/images/s3.png" className="bg-slate-200 rounded-full" alt="alt" width={35}
+						height={35} />
+				</Link>
 				<div className="mobile-menu block md:hidden">
 					<button
 						onClick={toggleNavBar}
