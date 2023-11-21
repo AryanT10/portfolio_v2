@@ -60,13 +60,14 @@ const AboutMe = () => {
 				/>
 				<div className="mt-4 md:mt-0 text-left flex flex-col h-full">
 					<h2 className="text-4xl font-bold txt-white mt-4 mb-4">About Me</h2>
-					<p className="txt-base lg:text-lg">Commodo elit culpa esse dolor. Duis do mollit enim ut ex commodo nulla eu cillum fugiat eiusmod. Mollit dolor sit pariatur dolore sunt. Deserunt laboris pariatur sint est Lorem proident officia sunt id amet ad pariatur ullamco. Dolor incididunt aliqua sint est.</p>
+					<p className="txt-base lg:text-lg">
+						As a Full-Stack Aspirant, I am fueled by eagerness to embark on a co-op adventure and explore new opportunities in the dynamic realm of technology. With a fervent passion for both front-end and back-end development, I am committed to honing my skills and staying abreast of the latest industry trends. Equipped with a solid foundation in programming languages, I am ready to contribute my enthusiasm and dedication to innovative projects. My goal is not just to build applications, but to create meaningful and impactful solutions that resonate with users. Eager to collaborate, learn, and thrive in a professional environment, I am excited about the prospect of translating my aspirations into tangible contributions in the field of Full-Stack development.</p>
 					<div className="flex flex-row justify-start mt-8">
 						<TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills{" "} </TabButton>
 						<TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education{" "} </TabButton>
 						<TabButton selectTab={() => handleTabChange("certification")} active={tab === "certification"}>Certification{" "} </TabButton>
 					</div>
-					<div className="mt-8">{TAB_DATA.find((t)=> t.id === tab).content}</div>
+					<div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
 				</div>
 			</div>
 		</section>
