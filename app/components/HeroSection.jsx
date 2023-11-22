@@ -31,7 +31,15 @@ const HeroSection = () => {
 						A dedicated programmer and co-op enthusiast. I primarily work with JavaScript and am actively engaged in learning the intricacies of web development.
 					</p>
 					{/* BUTTONS */}
-					<button className="px-6 w-full py-3 bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 sm:w-fit rounded-full mb-4 mr-4 bg-white hover:bg-slate-200 text-white">
+					<button onClick={() => {
+						const contactSection = document.getElementById('contact');
+						if (contactSection) {
+							window.scrollTo({
+								top: contactSection.offsetTop,
+								behavior: 'smooth',
+							});
+						}
+					}} className="px-6 w-full py-3 bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 sm:w-fit rounded-full mb-4 mr-4 bg-white hover:bg-slate-200 text-white">
 						Hire Me
 					</button>
 					<button className="px-6 w-full py-3 sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white mb-4 border border-white">
