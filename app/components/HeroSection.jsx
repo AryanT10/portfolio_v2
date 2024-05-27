@@ -40,10 +40,7 @@ const HeroSection = () => {
 							});
 						}
 					}} className="px-6 w-full py-3 bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 sm:w-fit rounded-full mb-4 mr-4 bg-white hover:bg-slate-200 text-white">
-						Hire Me
-					</button>
-					<button className="px-6 w-full py-3 sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white mb-4 border border-white">
-						Download CV
+						Contact Me
 					</button>
 				</div>
 				{/* IMAGE */}
