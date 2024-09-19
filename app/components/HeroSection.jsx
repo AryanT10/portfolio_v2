@@ -28,7 +28,7 @@ const HeroSection = () => {
 						/>
 					</h1>
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-						A dedicated programmer and co-op enthusiast. I primarily work with JavaScript and am actively engaged in learning the intricacies of web development.
+						A dedicated programmer and enthusiast. I primarily work with JavaScript and am actively engaged in learning the intricacies of web development.
 					</p>
 					{/* BUTTONS */}
 					<button onClick={() => {
@@ -40,7 +40,7 @@ const HeroSection = () => {
 							});
 						}
 					}} className="px-6 w-full py-3 bg-gradient-to-br from-blue-600 via-purple-500 to-red-500 sm:w-fit rounded-full mb-4 mr-4 bg-white hover:bg-slate-200 text-white">
-						Contact Me
+						Contact
 					</button>
 				</div>
 				{/* IMAGE */}

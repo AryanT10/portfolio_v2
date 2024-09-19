@@ -25,3 +25,69 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Tabs container */
+.tab-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Individual tab */
+.tab {
+  margin-right: 20px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ADB7BE; /* Light gray */
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.tab:hover {
+  color: #FFFFFF; /* White */
+}
+
+/* Active tab underline */
+.tab-active {
+  font-weight: bold;
+  color: #FFFFFF; /* White */
+}
+
+.tab-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #A020F0; /* Purple underline */
+}
+
+/* Styling bullet points */
+.list-disc {
+  list-style-type: none;
+  color: #FFFFFF; /* White bullet points */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-left: 20px;
+  list-style-position: inside;
+}
+
+.list-disc li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list-disc li::before {
+  content: "•";
+  color: #A020F0; /* Purple bullet color */
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+}

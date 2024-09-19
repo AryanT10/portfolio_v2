@@ -58,6 +58,42 @@ const projectsData = [
 		gitUrl: `https://github.com/AryanT10/LIVE_CLOCK_JS`,
 		previewUrl: `https://aryantuwar.vercel.app/`,
 	},
+	{
+		id: 7,
+		title: "Social Media_MERN",
+		description: "This is a full-stack social media application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides various features commonly found in social media platforms.",
+		image: "/images/projects/portfolio.png",
+		tag: ["All", "School","Web"],
+		gitUrl: `https://github.com/AryanT10/SocialMedia_MERN`,
+		previewUrl: `https://aryantuwar.vercel.app/`,
+	},
+	{
+		id: 8,
+		title: "DonutOrderApp",
+		description: "The Donut Picker App is an iOS application that allows users to select different types of donuts and their quantities, see the total price, and proceed to buy them",
+		image: "/images/projects/portfolio.png",
+		tag: ["All","School"],
+		gitUrl: `https://github.com/AryanT10/iosDev/tree/main/DonutOrder`,
+		previewUrl: `https://aryantuwar.vercel.app/`,
+	},
+	{
+		id: 9,
+		title: "StockApp",
+		description: "This is a Stock Management iOS app that allows users to monitor their stocks in real-time, categorize them as active or watching, and mark their favorite stocks for quick access. The app uses the MS Finance API to fetch real-time stock data.",
+		image: "/images/projects/portfolio.png",
+		tag: ["All","School"],
+		gitUrl: `https://github.com/AryanT10/iosDev/tree/main/stockApp`,
+		previewUrl: `https://aryantuwar.vercel.app/`,
+	},
+	{
+		id: 10,
+		title: "LibraryManagement",
+		description: "The Library Management System is a full-stack web application designed to streamline the management of library books and transactions.",
+		image: "/images/projects/portfolio.png",
+		tag: ["All","School","Web"],
+		gitUrl: `https://github.com/AryanT10/Library_management`,
+		previewUrl: `https://aryantuwar.vercel.app/`,
+	},
 ];
 
 const ProjectSection = () => {
