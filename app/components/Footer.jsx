@@ -9,7 +9,7 @@ const Footer = () => {
             height={35} />
         </span>
         <p className="text-slate-600">
-          All rights reserved
+        Made with ❤️ by Aryan | © 2025
         </p>
       </div>
     </footer>

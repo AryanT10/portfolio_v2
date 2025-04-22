@@ -29,7 +29,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="fixed top-0 left-0 border border-[#33353F] z-10 right-0 bg-[#121212] bg-opacity-100">
+		<nav className="fixed top-0 left-0 right-0 z-20 backdrop-blur-md bg-[#121212]/70 border-b border-[#33353F]">
 			<div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto p-4">
 				<Link href={'/'} className="text-xl md:text-5xl text-white font-semibold">
 					<Image src="/images/s3.png" className="bg-slate-200 rounded-full" alt="alt" width={35}
