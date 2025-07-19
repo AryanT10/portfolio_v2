@@ -6,66 +6,6 @@ import { useInView, motion } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Task Tracker (React)",
-    description:
-      "TASK TRACKING APP FOR EDITING TASKS , INSERTING TASKS AND DATE , REMINDER SETUP AND MANY OTHER FEATURES USING REACT.js",
-    image: "/images/projects/taskTracker.png",
-    tag: ["All", "School"],
-    gitUrl: `https://github.com/AryanT10/react-task-tracker.git`,
-    previewUrl: `https://reacttasktrackingapp.netlify.app/`,
-  },
-  {
-    id: 2,
-    title: "YouTube Clone",
-    description:
-      "This project is a simple YouTube clone built with React, utilizing the React Router dom for routing and Material UI for component styling.",
-    image: "/images/projects/ytclone.png",
-    tag: ["All", "Web"],
-    gitUrl: `https://github.com/AryanT10/youtubeClone_React.git`,
-    previewUrl: `https://64d6b150aee173228c8eff59--melodious-lolly-00dd58.netlify.app/`,
-  },
-  {
-    id: 3,
-    title: "Gym App React",
-    description:
-      "The Workout App is a web application built using React that provides users with exercises and workout-related information. Users can browse through various exercises, watch exercise videos, and find similar exercises based on different criteria.",
-    image: "/images/projects/gymreact.png",
-    tag: ["All", "Web"],
-    gitUrl: `https://github.com/AryanT10/workoutApp_React.git`,
-    previewUrl: `https://gymappreact.netlify.app/`,
-  },
-  {
-    id: 4,
-    title: "Spotify (using Spotify API)",
-    description:
-      "A Spotify clone built using React and the Spotify Web API. This project aims to replicate some of the core features of the Spotify music streaming service, allowing users to browse playlists, play tracks, and manage their music library.",
-    image: "/images/projects/spotify.png",
-    tag: ["All", "Web"],
-    gitUrl: `https://github.com/AryanT10/Spotify-lite_React`,
-    previewUrl: ``,
-  },
-  {
-    id: 5,
-    title: "My Portfolio",
-    description:
-      "My Portfolio website made using Next.js, React, Tailwind, motion and many more..",
-    image: "/images/projects/portfolio.png",
-    tag: ["All", "School", "Web"],
-    gitUrl: `https://github.com/AryanT10/portfolio_v2`,
-    previewUrl: `https://aryantuwar.vercel.app/`,
-  },
-  {
-    id: 6,
-    title: "Live Clock (JS,CSS)",
-    description:
-      "This Project code provides a stylish and eye-catching revolving Red, Blue, Green gradient effect",
-    image: "/images/projects/liveclock.png",
-    tag: ["All", "School"],
-    gitUrl: `https://github.com/AryanT10/LIVE_CLOCK_JS`,
-    previewUrl: `https://aryantuwar.vercel.app/`,
-  },
-  {
-    id: 7,
     title: "Social Media_MERN",
     description:
       "This is a full-stack social media application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides various features commonly found in social media platforms.",
@@ -75,14 +15,74 @@ const projectsData = [
     previewUrl: `https://aryantuwar.vercel.app/`,
   },
   {
-    id: 8,
-    title: "DonutOrderApp",
+    id: 2,
+    title: "TailTales",
     description:
-      "The Donut Picker App is an iOS application that allows users to select different types of donuts and their quantities, see the total price, and proceed to buy them",
+      "TailTales is a real-time, full-stack web application built to connect pet owners with trusted local service providers.",
+    image: "/images/projects/tailTales.png",
+    tag: ["All", "School", "Web"],
+    gitUrl: `https://github.com/AryanT10/TailTales`,
+    previewUrl: `https://tailtales.vercel.app/`,
+  },
+  {
+    id: 3,
+    title: "My Portfolio",
+    description:
+      "My Portfolio website made using Next.js, React, Tailwind, motion and many more..",
     image: "/images/projects/portfolio.png",
-    tag: ["All", "School"],
-    gitUrl: `https://github.com/AryanT10/iosDev/tree/main/DonutOrder`,
+    tag: ["All", "School", "Web"],
+    gitUrl: `https://github.com/AryanT10/portfolio_v2`,
     previewUrl: `https://aryantuwar.vercel.app/`,
+  },
+  {
+    id: 4,
+    title: "LibraryManagement",
+    description:
+      "The Library Management System is a full-stack web application designed to streamline the management of library books and transactions.",
+    image: "/images/projects/portfolio.png",
+    tag: ["All", "School", "Web"],
+    gitUrl: `https://github.com/AryanT10/Library_management`,
+    previewUrl: `https://aryantuwar.vercel.app/`,
+  },
+  {
+    id: 5,
+    title: "Spotify (using Spotify API)",
+    description:
+      "A Spotify clone built using React and the Spotify Web API. This project aims to replicate some of the core features of the Spotify music streaming service, allowing users to browse playlists, play tracks, and manage their music library.",
+    image: "/images/projects/spotify.png",
+    tag: ["All", "Web"],
+    gitUrl: `https://github.com/AryanT10/Spotify-lite_React`,
+    previewUrl: ``,
+  },
+  {
+    id: 6,
+    title: "Gym App React",
+    description:
+      "The Workout App is a web application built using React that provides users with exercises and workout-related information. Users can browse through various exercises, watch exercise videos, and find similar exercises based on different criteria.",
+    image: "/images/projects/gymreact.png",
+    tag: ["All", "Web"],
+    gitUrl: `https://github.com/AryanT10/workoutApp_React.git`,
+    previewUrl: `https://gymappreact.netlify.app/`,
+  },
+  {
+    id: 7,
+    title: "YouTube Clone",
+    description:
+      "This project is a simple YouTube clone built with React, utilizing the React Router dom for routing and Material UI for component styling.",
+    image: "/images/projects/ytclone.png",
+    tag: ["All", "Web"],
+    gitUrl: `https://github.com/AryanT10/youtubeClone_React.git`,
+    previewUrl: `https://64d6b150aee173228c8eff59--melodious-lolly-00dd58.netlify.app/`,
+  },
+  {
+    id: 8,
+    title: "Task Tracker (React)",
+    description:
+      "TASK TRACKING APP FOR EDITING TASKS , INSERTING TASKS AND DATE , REMINDER SETUP AND MANY OTHER FEATURES USING REACT.js",
+    image: "/images/projects/taskTracker.png",
+    tag: ["All", "School"],
+    gitUrl: `https://github.com/AryanT10/react-task-tracker.git`,
+    previewUrl: `https://reacttasktrackingapp.netlify.app/`,
   },
   {
     id: 9,
@@ -96,23 +96,23 @@ const projectsData = [
   },
   {
     id: 10,
-    title: "LibraryManagement",
+    title: "DonutOrderApp",
     description:
-      "The Library Management System is a full-stack web application designed to streamline the management of library books and transactions.",
+      "The Donut Picker App is an iOS application that allows users to select different types of donuts and their quantities, see the total price, and proceed to buy them",
     image: "/images/projects/portfolio.png",
-    tag: ["All", "School", "Web"],
-    gitUrl: `https://github.com/AryanT10/Library_management`,
+    tag: ["All", "School"],
+    gitUrl: `https://github.com/AryanT10/iosDev/tree/main/DonutOrder`,
     previewUrl: `https://aryantuwar.vercel.app/`,
   },
   {
     id: 11,
-    title: "TailTales",
+    title: "Live Clock (JS,CSS)",
     description:
-      "TailTales is a real-time, full-stack web application built to connect pet owners with trusted local service providers.",
-    image: "/images/projects/tailTales.png",
-    tag: ["All", "School", "Web"],
-    gitUrl: `https://github.com/AryanT10/TailTales`,
-    previewUrl: `https://tailtales.vercel.app/`,
+      "This Project code provides a stylish and eye-catching revolving Red, Blue, Green gradient effect",
+    image: "/images/projects/liveclock.png",
+    tag: ["All", "School"],
+    gitUrl: `https://github.com/AryanT10/LIVE_CLOCK_JS`,
+    previewUrl: `https://aryantuwar.vercel.app/`,
   },
 ];
 
