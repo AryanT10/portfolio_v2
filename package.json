@@ -20,6 +20,9 @@
     "resend": "^2.0.0",
     "spline": "^0.0.0"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
